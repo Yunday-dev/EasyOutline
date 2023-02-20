@@ -1,2 +1,2 @@
 # EasyOutline
-Outline Effect For Unity
+Easy Outline for Unity

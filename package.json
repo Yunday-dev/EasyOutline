@@ -1,0 +1,29 @@
+{
+  "name": "com.yunday.easyoutline",
+  "displayName": "Easy Outline",
+  "description": "Easy Outline",
+  "version": "1.0.0",
+  "unity": "2021.3",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yunday-dev/EasyOutline.git"
+  },
+  "author": {
+    "name": "yunday-dev",
+    "email": "yunday.dev@gmail.com",
+    "url": "https://github.com/yunday-dev"
+  },
+  "dependencies": {},
+  "keywords": [
+    "outline",
+    "highlight"
+  ],
+  "samples": [
+    {
+      "displayName": "Sample",
+      "description": "Easy Outline Sample",
+      "path": "Samples~"
+    }
+  ]
+}
