@@ -13,5 +13,30 @@ Easy Outline For Unity
 2. Add OutlineTag component to Mesh's parent GameObject
 <img width="655" alt="AddOutlineTag" src="https://user-images.githubusercontent.com/89770413/220145182-81e3ad5a-b228-4689-a16c-af884595f628.png">
 
+3. Add Script
+```cs
+public class SampleContent : MonoBehaviour
+{
+    private OutlineManager _outlineManager;
+    private OutlineTag _outlineTag;
+
+    private void Start()
+    {
+        _outlineManager = gameObject.GetComponent<OutlineManager>();
+        _outlineTag = gameObject.GetComponent<OutlineTag>();
+    }
+    
+    private void EnableOutline()
+    {
+        _outlineManager.EnableOutline(_outlineTag);
+    }
+
+    private void DisableOutline()
+    {
+        _outlineManager.DisableOutline(_outlineTag);
+    }
+}
+```
+
 ## Sample
 ![outline_std](https://user-images.githubusercontent.com/89770413/220145511-a6f7a2cc-9a21-482f-94de-86b78889d1e0.gif)
