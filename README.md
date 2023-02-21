@@ -8,13 +8,10 @@ Easy Outline For Unity
 
 ## Usage
 1. Add OutlineManager component to Content GameObject
-<br><br>
 <img width="655" alt="AddOutlineManager" src="https://user-images.githubusercontent.com/89770413/220145109-fd40f25c-20f1-4c4e-adb3-e1d611f0bcf6.png">
 
 2. Add OutlineTag component to Mesh's parent GameObject
-<br><br>
 <img width="655" alt="AddOutlineTag" src="https://user-images.githubusercontent.com/89770413/220145182-81e3ad5a-b228-4689-a16c-af884595f628.png">
 
 ## Sample
-<br><br>
 ![outline_std](https://user-images.githubusercontent.com/89770413/220145511-a6f7a2cc-9a21-482f-94de-86b78889d1e0.gif)
